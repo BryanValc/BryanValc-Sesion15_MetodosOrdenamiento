@@ -1,16 +1,5 @@
 import java.util.Arrays;
 
-class Nano{
-	long nanoseg;
-	
-	public void tInit(){
-		nanoseg=System.nanoTime();
-	}
-	public void tEnd(){
-		System.out.println("nanosegundos= "+(System.nanoTime()-nanoseg));
-	}
-}
-
 class MetodosOrdenamiento{
 	
 	static class Burbuja {
@@ -70,8 +59,6 @@ class MetodosOrdenamiento{
 		}
 		
 	}
-	
-	
 	
 }
 
